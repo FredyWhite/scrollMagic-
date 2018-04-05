@@ -64,7 +64,31 @@ body{
 }
 #robot{
     display: inline-block;
-    width:200px;
+    width:15%;
     height: auto;
-    margin-top: 3vh;
+    margin-top:10vh ;
+}
+#layout{
+    width:10%;
+    opacity:0;
+    height: auto;
+    position:absolute;
+    top:30vh;
+    left:0;   
+}
+@media only screen and (max-width: 1024px) {
+    #robot{
+        display: inline-block;
+        width:30%;
+        height: auto;
+        margin-top:10vh ;
+    }
+    #layout{
+        position:absolute;
+        width:20%;
+        height: auto;
+        top:30vh;
+        left:0;   
+    }
+
 }
