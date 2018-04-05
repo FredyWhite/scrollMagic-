@@ -57,14 +57,14 @@ body{
 #escena_1 p{
     display: inline-block;
     width: 40%;
-    vertical-align: top;
+    vertical-align: top; 
     margin-right: 10%;
     margin-top: 10vh;
     font-size: 5vh;
 }
 #robot{
     display: inline-block;
-    width:20%;
+    width:200px;
     height: auto;
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
