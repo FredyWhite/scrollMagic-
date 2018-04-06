@@ -55,12 +55,31 @@ body{
     font-size: 10vh;
 }
 #escena_1 p{
-    display: inline-block;
-    width: 40%;
+    float: left;
+    width: 50%;
     vertical-align: top; 
     margin-right: 10%;
     margin-top: 10vh;
-    font-size: 5vh;
+    font-size: 4vh;
+    padding-left:100px;
+}
+#escena_2 p{
+    width: 50%;
+    float: left;
+    vertical-align: top; 
+    margin-right: 10%;
+    margin-top: 10vh;
+    font-size: 4vh;
+    padding-left:100px;
+}
+#escena_3 p{
+    width: 50%;
+    float: left;
+    vertical-align: top; 
+    margin-right: 10%;
+    margin-top: 10vh;
+    font-size: 4vh;
+    padding-left:100px;
 }
 #robot{
     display: inline-block;
@@ -69,6 +88,22 @@ body{
     margin-top:10vh ;
 }
 #layout{
+    width:10%;
+    opacity:0;
+    height: auto;
+    position:absolute;
+    top:30vh;
+    left:0;   
+}
+#BD{
+    width:10%;
+    opacity:1;
+    height: auto;
+    position:absolute;
+    top:30vh;
+    left:0;   
+}
+#datos{
     width:10%;
     opacity:0;
     height: auto;
@@ -90,5 +125,29 @@ body{
         top:30vh;
         left:0;   
     }
-
+    #BD{
+        width:20%;
+        opacity:0;
+        height: auto;
+        position:absolute;
+        top:30vh;
+        left:0;   
+    }
+    #datos{
+        width:20%;
+        opacity:0;
+        height: auto;
+        position:absolute;
+        top:30vh;
+        left:0;   
+    }
+}
+#debug{
+   position: fixed;
+   top:0;
+   left: 0;
+   background-color:#ffffff;
+   font-size: 20px;
+   text-align: center;
+   width: 200px;
 }
