@@ -28,6 +28,4 @@ $(document).ready(function(){
     .setPin("#layout")
     .addIndicators()
     .addTo(controller);
-    
-
 });
