@@ -12,7 +12,7 @@ body {
 body {
     margin: 0;
     font-family: 'Monda', sans-serif;
-    font-size: 4vw;
+    font-size: 2vw;
     text-align: center;
     overflow-x: hidden;
     background-color: #C6D169;
@@ -62,21 +62,43 @@ body {
     margin: auto;
     height: 300px;
     font-size: 10vh;
+    z-index: 12;
 }
 
 #escena_1 p {
-    display: inline-block;
-    width: 40%;
+    float: left;
+    width: 100%;
     vertical-align: top;
     margin-right: 10%;
     margin-top: 10vh;
-    font-size: 5vh;
+    font-size: 4vh;
+    padding-left: 100px;
+}
+
+#escena_2 p {
+    width: 50%;
+    float: left;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-top: 10vh;
+    font-size: 4vh;
+    padding-left: 100px;
+}
+
+#escena_3 p {
+    width: 50%;
+    float: left;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-top: 10vh;
+    font-size: 4vh;
+    padding-left: 100px;
 }
 
 #robot {
     display: inline-block;
-    width: 14%;
-    height: auto;
+    width: auto;
+    height: 50vh;
     margin-top: 10vh;
 }
 
@@ -89,11 +111,61 @@ body {
     left: 0;
 }
 
+#layoutE0 {
+    width: auto;
+    opacity: 1;
+    height: 15vh;
+    margin-top: 5vh;
+    left: 0;
+}
+
+#layoutE01 {
+    width: auto;
+    opacity: 1;
+    height: 15vh;
+    margin-top: 5vh;
+    left: 0;
+}
+
+#layoutE02,
+#layoutE03,
+#layoutE04,
+#layoutE05,
+#layoutE06,
+#layoutE07,
+#layoutE08,
+#layoutE000,
+#layoutE00 {
+    width: auto;
+    opacity: 1;
+    height: 15vh;
+    margin-top: 5vh;
+    left: 0;
+}
+
+#BD {
+    width: 10%;
+    opacity: 1;
+    height: auto;
+    position: absolute;
+    top: 30vh;
+    left: 0;
+}
+
+#datos {
+    width: 10%;
+    opacity: 0;
+    height: auto;
+    position: absolute;
+    top: 30vh;
+    left: 0;
+}
+
 @media only screen and (max-width: 1024px) {
     #robot {
         display: inline-block;
-        width: 30%;
-        height: auto;
+        width: auto;
+        height: 50vh;
         margin-top: 10vh;
     }
     #layout {
@@ -103,4 +175,30 @@ body {
         top: 30vh;
         left: 0;
     }
+    #BD {
+        width: 20%;
+        opacity: 0;
+        height: auto;
+        position: absolute;
+        top: 30vh;
+        left: 0;
+    }
+    #datos {
+        width: 20%;
+        opacity: 0;
+        height: auto;
+        position: absolute;
+        top: 30vh;
+        left: 0;
+    }
+}
+
+#debug {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
 }
